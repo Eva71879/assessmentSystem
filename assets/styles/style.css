@@ -1,0 +1,64 @@
+* {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-image: url('../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.header__title {
+    margin-top: 20%;
+}
+
+.main__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+}
+
+.list__name {
+    font-size: 25px;
+}
+.list__career {
+}
+.list__Films {
+    color: goldenrod;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.footer__title {
+    margin-right: 50px;
+}
+.footer__content {
+    align-self: center;
+    font-size: 30px;
+    font-weight: 500;
+}
